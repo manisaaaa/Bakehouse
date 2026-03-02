@@ -1,208 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Little Abrm Bakes</title>
+    <meta charset="UTF-8">
+    <title>Little Abrm Bakes</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Berlin Sans FB", sans-serif;
+            background-color: #FFF6ED;
+            color: #4A2C2A;
+        }
 
-<style>
-body {
-    margin: 0;
-    font-family: "Berlin Sans FB", sans-serif;
-    background-color: #FFF6ED;
-    color: #4A2C2A;
-}
+        header {
+            background-color: #F4C2C2;
+            padding: 20px;
+            text-align: center;
+        }
 
-/* Navbar */
-nav {
-    background-color: #F4C2C2;
-    padding: 10px;
-    text-align: center;
-}
+        header h1 {
+            font-family: "Segoe Script", cursive;
+            font-weight: bold;
+            font-size: 40px;
+        }
 
-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    font-family: "Segoe Script", cursive;
-    font-weight: bold;
-    color: #4A2C2A;
-}
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            background-color: #FFFDF9;
+            border-radius: 15px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+        }
 
-/* Header */
-header {
-    text-align: center;
-    padding: 20px;
-}
+        .title {
+            font-family: Forte, cursive;
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #8B4513;
+        }
 
-header h1 {
-    font-family: "Segoe Script", cursive;
-    font-weight: bold;
-    font-size: 40px;
-}
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
 
-/* Sections */
-section {
-    margin: 20px auto;
-    padding: 20px;
-    width: 85%;
-    background-color: #FFFDF9;
-    border-radius: 15px;
-    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
-}
+        footer {
+            background-color: #F4C2C2;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            font-family: "Segoe Script", cursive;
+            font-weight: bold;
+        }
 
-.title {
-    font-family: Forte, cursive;
-    font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #8B4513;
-}
+        a {
+            color: #8B4513;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-/* Gallery */
-.gallery {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    flex-wrap: wrap;
-}
-
-.card {
-    text-align: center;
-    transition: transform 0.3s;
-}
-
-.card img {
-    width: 260px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.card img:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 6px 15px rgba(0,0,0,0.3);
-}
-
-.card p {
-    margin-top: 8px;
-    font-weight: bold;
-}
-
-/* Footer */
-footer {
-    background-color: #F4C2C2;
-    text-align: center;
-    padding: 15px;
-    margin-top: 20px;
-    font-family: "Segoe Script", cursive;
-    font-weight: bold;
-}
-
-a {
-    color: #8B4513;
-    font-weight: bold;
-    text-decoration: none;
-}
-</style>
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
 
-<nav>
-<a href="#about">About</a>
-<a href="#products">Products</a>
-<a href="#contact">Contact</a>
-<a href="#links">Quick Links</a>
-</nav>
-
 <header>
-<h1>Little Abrm Bakes</h1>
+    <h1>Little Abrm Bakes</h1>
 </header>
 
-<section id="about">
-<div class="title">About Us</div>
-<p>
-Little Abrm Bakes is a home-based bakery business that provides fresh and delicious mini baked items such as mini cakes, donuts, cupcakes, cookies, brownies and custom sweet treats. These treats are perfect for birthdays, small celebrations, gifts and personal cravings.
-</p>
-</section>
-
-<section id="products">
-<div class="title">Products / Services</div>
-
-<div class="gallery">
-<div class="card">
-<img src="images/Chocolate Cake.jpg" alt="Chocolate Cake">
-<p>Chocolate Brownie Cake</p>
-</div>
-
-<div class="card">
-<img src="images/Red Velvet Cake.jpg" alt="Red Velvet Cake">
-<p>Red Velvet Cake</p>
-</div>
-</div>
-
-<ul>
-<li>Mini Cake</li>
-<li>Cupcakes</li>
-<li>Donuts</li>
-<li>Desserts</li>
-<li>Drinks</li>
-<li>Snacks</li>
-</ul>
+<section>
+    <div class="title">About Us</div>
+    <p>
+        Little Abrm Bakes is a home-based bakery business that provides fresh and delicious mini baked items such as mini cakes, donuts, cupcakes, cookies, brownies and custom sweet treats. These treats are perfect for birthdays, small celebrations, gifts and personal cravings.
+    </p>
 </section>
 
 <section>
-<div class="title">Mission</div>
-<p>Our mission is to provide fresh, homemade and high-quality baked treats that bring happiness in every bite.</p>
+    <div class="title">Products / Services</div>
+    <ul>
+        <li>Mini Cake</li>
+        <li>Cupcakes</li>
+        <li>Donuts</li>
+        <li>Desserts</li>
+        <li>Drinks</li>
+        <li>Snacks</li>
+    </ul>
 </section>
 
 <section>
-<div class="title">Vision</div>
-<p>Our vision is to become a trusted and loved mini bakery brand known for delicious small treats and beautiful presentation.</p>
+    <div class="title">Mission</div>
+    <p>
+        Our mission is to provide fresh, homemade and high-quality baked treats that bring happiness in every bite.
+    </p>
 </section>
 
 <section>
-<div class="title">Brand Value</div>
-<p>We believe:</p>
-<ul>
-<li>Small things create big happiness</li>
-<li>Quality matters</li>
-<li>Homemade with love</li>
-</ul>
+    <div class="title">Vision</div>
+    <p>
+        Our vision is to become a trusted and loved mini bakery brand known for delicious small treats and beautiful presentation.
+    </p>
 </section>
 
 <section>
-<div class="title">Conclusion</div>
-<p>
-Little Abrm Bakes focuses on delivering fresh and high-quality mini desserts that bring joy and sweetness to everyday moments and small celebrations.
-</p>
+    <div class="title">Brand Value</div>
+    <p>We believe:</p>
+    <ul>
+        <li>Small things create big happiness</li>
+        <li>Quality matters</li>
+        <li>Homemade with love</li>
+    </ul>
 </section>
 
-<section id="contact">
-<div class="title">Contact</div>
-<p>
-<strong>Location:</strong> Butwal, Rupandehi, Nepal <br><br>
-<strong>Contact No:</strong><br>
-9768281253<br>
-9745416869<br>
-9811966295<br>
-9821591982<br><br>
-<strong>Email:</strong> abrmbakes005gmail.com <br><br>
-<strong>Opens:</strong> 9AM - 9PM (Except Saturday)
-</p>
+<section>
+    <div class="title">Conclusion</div>
+    <p>
+        Little Abrm Bakes focuses on delivering fresh and high-quality mini desserts that bring joy and sweetness to everyday moments and small celebrations.
+    </p>
 </section>
 
-<section id="links">
-<div class="title">Quick Links</div>
-<p>
-Instagram:
-<a href="https://www.instagram.com/littleabrmbakes?igsh=cTQwNGFxdWJvaTIz" target="_blank">
-Visit Little Abrm Bakes
-</a>
-</p>
+<section>
+    <div class="title">Contact</div>
+    <p>
+        <strong>Location:</strong> Butwal, Rupandehi, Nepal <br><br>
+        <strong>Contact No:</strong><br>
+        9768281253<br>
+        9745416869<br>
+        9811966295<br>
+        9821591982<br><br>
+        <strong>Email:</strong> abrmbakes005gmail.com <br><br>
+        <strong>Opens:</strong> 9AM - 9PM (Except Saturday)
+    </p>
+</section>
+
+<section>
+    <div class="title">Quick Links</div>
+    <p>
+        Instagram: 
+        <a href="https://www.instagram.com/littleabrmbakes?igsh=cTQwNGFxdWJvaTIz" target="_blank">
+            Visit Little Abrm Bakes
+        </a>
+    </p>
 </section>
 
 <footer>
-Sweet treats made with love ♥ Little Abrm Bakes
+    Sweet treats made with love ♥ Little Abrm Bakes
 </footer>
 
 </body>
